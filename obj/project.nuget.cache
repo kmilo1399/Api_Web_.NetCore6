@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "eesSE2KBAe7KmTuZuALil7MSrmMu6tXs2qDLqe4m/lWrAF8ISSe4V7XQdqWWwiB0P9AVtyq4IcRA9sp4iWGTOw==",
+  "dgSpecHash": "uceEgCrQg0w3ruqVKyqxTpNkB+pP3RCjW4eotY+rlzymRd0omg9nf0CHVbHRRxbTlZvd04aZYfJIYFsdisDvHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\Proyectos personales\\Proyectos .Net Core\\APICore\\APICore\\APICore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.3\\microsoft.aspnetcore.authentication.jwtbearer.6.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.17.0\\microsoft.identitymodel.jsonwebtokens.6.17.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.identitymodel.logging\\6.17.0\\microsoft.identitymodel.logging.6.17.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.17.0\\microsoft.identitymodel.tokens.6.17.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -17,8 +24,31 @@
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.17.0\\system.identitymodel.tokens.jwt.6.17.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 6.17.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 6.17.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

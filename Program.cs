@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var misReglasCors = "ReglasCors";
@@ -10,6 +14,28 @@ builder.Services.AddCors(option =>
         }
     )
 );
+
+builder.Configuration.AddJsonFile("appsettings.json");
+var secretKey = builder.Configuration.GetSection("Settings").GetSection("secretKey").ToString();
+var keyBytes = Encoding.UTF8.GetBytes(secretKey);
+
+builder.Services.AddAuthentication(config =>
+{
+    config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+}).AddJwtBearer(config =>
+{
+    config.RequireHttpsMetadata = false;
+    config.SaveToken = true;
+    config.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
 
 // Add services to the container.
 
@@ -28,6 +54,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors(misReglasCors);
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

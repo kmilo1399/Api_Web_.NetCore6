@@ -36,3 +36,11 @@ C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\obj
 C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\obj\Debug\net6.0\APICore.pdb
 C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\obj\Debug\net6.0\APICore.genruntimeconfig.cache
 C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\obj\Debug\net6.0\ref\APICore.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\Desktop\Proyectos personales\Proyectos .Net Core\APICore\APICore\obj\Debug\net6.0\APICore.sourcelink.json
